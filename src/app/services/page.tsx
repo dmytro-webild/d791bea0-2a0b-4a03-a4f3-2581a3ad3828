@@ -47,7 +47,7 @@ export default function ServicesPage() {
           tag="All Your Plumbing Needs"
           tagIcon={Wrench}
           tagAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721525.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721525.jpg?_wi=2"
           imageAlt="Professional plumbing service and tools"
           mediaAnimation="slide-up"
           accordionItems={[
