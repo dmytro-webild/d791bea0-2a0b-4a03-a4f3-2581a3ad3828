@@ -139,7 +139,7 @@ export default function HomePage() {
           tag="Full Service Coverage"
           tagIcon={Wrench}
           tagAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721525.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721525.jpg?_wi=1"
           imageAlt="Professional plumbing service van and tools"
           mediaAnimation="slide-up"
           accordionItems={[
@@ -221,7 +221,7 @@ export default function HomePage() {
               handle: "@sarahjohnsonfamily",
               testimonial: "Barry arrived within 30 minutes of my emergency call. He quickly diagnosed our burst pipe, explained the repair clearly, and fixed it without any fuss. Honest pricing, professional work. Highly recommend!",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-young-woman-posing_23-2148454538.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-young-woman-posing_23-2148454538.jpg?_wi=1",
               imageAlt: "Sarah Johnson",
             },
             {
@@ -230,7 +230,7 @@ export default function HomePage() {
               handle: "@mchen_home",
               testimonial: "Had a major drain clog in my basement. Barry was straightforward about what needed to be done and the cost—no surprises. The work was done efficiently and my drain is flowing perfectly now.",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-businessman-holding-mobile-phone-coffee-cup-waiting-area_107420-95820.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-businessman-holding-mobile-phone-coffee-cup-waiting-area_107420-95820.jpg?_wi=1",
               imageAlt: "Michael Chen",
             },
             {
@@ -239,7 +239,7 @@ export default function HomePage() {
               handle: "@emilyrodriguezdiy",
               testimonial: "Called for a water heater issue on a Sunday. Barry answered immediately, came out the same day, and got us hot water again. Great service, fair price. We've used him three times now.",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-broadly-business-woman-showing-thumb-up_1262-1127.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/smiling-broadly-business-woman-showing-thumb-up_1262-1127.jpg?_wi=1",
               imageAlt: "Emily Rodriguez",
             },
             {
@@ -248,7 +248,7 @@ export default function HomePage() {
               handle: "@dkimhomeowner",
               testimonial: "Most plumbers just show up and quote high prices. Barry took time to explain our options, recommended the most cost-effective solution, and did excellent work. A plumber you can actually trust.",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/people-recording-their-house-tour_23-2151139106.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/people-recording-their-house-tour_23-2151139106.jpg?_wi=1",
               imageAlt: "David Kim",
             },
             {
@@ -257,7 +257,7 @@ export default function HomePage() {
               handle: "@jmartinez_homecare",
               testimonial: "Leaky faucet turned into a bigger problem. Barry diagnosed it quickly, explained what went wrong in terms I could understand, and fixed it properly. Professional and friendly. Will call him again.",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/pretty-teenager-talking-phone_23-2148804651.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/pretty-teenager-talking-phone_23-2148804651.jpg?_wi=1",
               imageAlt: "Jessica Martinez",
             },
             {
@@ -266,7 +266,7 @@ export default function HomePage() {
               handle: "@rthompson_builder",
               testimonial: "Used Barry for our home remodel plumbing work. Reliable, on-time, quality work, and fair pricing. He's now our go-to plumber for everything. Definitely recommend to anyone in the area.",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-businessman-looking-camera_23-2147839978.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-businessman-looking-camera_23-2147839978.jpg?_wi=1",
               imageAlt: "Robert Thompson",
             },
           ]}
