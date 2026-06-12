@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 const halant = Halant({
@@ -67,7 +66,7 @@ export default function RootLayout({
         <body
           className={`${halant.variable} ${inter.variable} ${openSans.variable} antialiased`}
         >
-          <Tag />
+          
           {children}
           <script
               dangerouslySetInnerHTML={{
