@@ -37,7 +37,7 @@ export default function HomePage() {
             { name: "Contact", id: "/contact" },
           ]}
           button={{
-            text: "Call Now: (555) 987-6543",            href: "tel:+15559876543"}}
+            text: "Call Now: (402) 383-1633",            href: "tel:+14023831633"}}
           animateOnLoad={true}
         />
       </div>
@@ -52,7 +52,7 @@ export default function HomePage() {
           background={{ variant: "radial-gradient" }}
           buttons={[
             {
-              text: "Call Now: (555) 987-6543",              href: "tel:+15559876543"},
+              text: "Call Now: (402) 383-1633",              href: "tel:+14023831633"},
             {
               text: "Request Service",              href: "/contact"},
           ]}
@@ -143,7 +143,7 @@ export default function HomePage() {
             {
               text: "Request Service Now",              href: "/contact"},
             {
-              text: "Call (555) 987-6543",              href: "tel:+15559876543"},
+              text: "Call (402) 383-1633",              href: "tel:+14023831633"},
           ]}
           buttonAnimation="slide-up"
           showBorder={true}
@@ -193,7 +193,7 @@ export default function HomePage() {
           tagAnimation="slide-up"
           faqs={[
             {
-              id: "1",              title: "Do you offer 24/7 emergency plumbing service?",              content: "Yes! We're available 24 hours a day, 7 days a week for emergency plumbing calls. Nights, weekends, holidays—call (555) 987-6543 anytime you need urgent help."},
+              id: "1",              title: "Do you offer 24/7 emergency plumbing service?",              content: "Yes! We're available 24 hours a day, 7 days a week for emergency plumbing calls. Nights, weekends, holidays—call (402) 383-1633 anytime you need urgent help."},
             {
               id: "2",              title: "How quickly can you respond to emergency calls?",              content: "Our average emergency response time is 30 minutes. We prioritize urgent calls to minimize water damage and get your plumbing working again fast."},
             {
@@ -203,7 +203,7 @@ export default function HomePage() {
             {
               id: "5",              title: "Do you service water heaters and drain clogs?",              content: "Yes! We repair, maintain, and install water heaters of all brands and types. We also specialize in drain cleaning and clog removal using modern equipment."},
             {
-              id: "6",              title: "What areas do you serve?",              content: "We serve the greater metro area and surrounding communities. Call (555) 987-6543 to confirm we service your location, or fill out our online contact form and we'll get back to you quickly."},
+              id: "6",              title: "What areas do you serve?",              content: "We serve the greater metro area and surrounding communities. Call (402) 383-1633 to confirm we service your location, or fill out our online contact form and we'll get back to you quickly."},
             {
               id: "7",              title: "Can I request service online?",              content: "Yes! You can fill out our online service request form with details about your plumbing issue. We'll contact you within 1 hour to confirm your appointment time."},
           ]}
@@ -228,7 +228,7 @@ export default function HomePage() {
           background={{ variant: "rotated-rays-animated" }}
           useInvertedBackground={false}
           inputPlaceholder="Your phone number"
-          buttonText="Call Now: (555) 987-6543"
+          buttonText="Call Now: (402) 383-1633"
           termsText="We'll respond to your request within 1 hour. Available 24/7 for emergencies."
         />
       </div>
@@ -254,7 +254,7 @@ export default function HomePage() {
             },
             {
               title: "Contact",              items: [
-                { label: "Call: (555) 987-6543", href: "tel:+15559876543" },
+                { label: "Call: (402) 383-1633", href: "tel:+14023831633" },
                 { label: "Emergency: 24/7", href: "#" },
                 { label: "Service Request Form", href: "/contact" },
                 { label: "Email: info@barrysplumbing.com", href: "mailto:info@barrysplumbing.com" },
