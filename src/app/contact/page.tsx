@@ -29,11 +29,10 @@ export default function ContactPage() {
             { name: "Home", id: "/" },
             { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
-            { name: "Contact", id: "/contact" },
+            { name: "Contact", id: "/contact" }
           ]}
           button={{
-            text: "Call Now: (555) 123-4567",
-            href: "tel:+15551234567",
+            text: "Call Now: (402) 383-1633",            href: "tel:+14023831633"
           }}
           animateOnLoad={true}
         />
@@ -47,11 +46,11 @@ export default function ContactPage() {
           tagIcon={Phone}
           tagAnimation="slide-up"
           background={{
-            variant: "rotated-rays-animated",
+            variant: "rotated-rays-animated"
           }}
           useInvertedBackground={false}
           inputPlaceholder="Your phone number"
-          buttonText="Call Now: (555) 123-4567"
+          buttonText="Call Now: (402) 383-1633"
           termsText="We'll respond to your request within 1 hour. Available 24/7 for emergencies."
         />
       </div>
@@ -65,48 +64,26 @@ export default function ContactPage() {
           tagAnimation="slide-up"
           faqs={[
             {
-              id: "1",
-              title: "Do you offer 24/7 emergency plumbing service?",
-              content: "Yes! We're available 24 hours a day, 7 days a week for emergency plumbing calls. Nights, weekends, holidays—call (555) 123-4567 anytime you need urgent help.",
-            },
+              id: "1",              title: "Do you offer 24/7 emergency plumbing service?",              content: "Yes! We're available 24 hours a day, 7 days a week for emergency plumbing calls. Nights, weekends, holidays—call (402) 383-1633 anytime you need urgent help."},
             {
-              id: "2",
-              title: "How quickly can you respond to emergency calls?",
-              content: "Our average emergency response time is 30 minutes. We prioritize urgent calls to minimize water damage and get your plumbing working again fast.",
-            },
+              id: "2",              title: "How quickly can you respond to emergency calls?",              content: "Our average emergency response time is 30 minutes. We prioritize urgent calls to minimize water damage and get your plumbing working again fast."},
             {
-              id: "3",
-              title: "Do you provide upfront pricing?",
-              content: "Absolutely. We give you a clear price quote before we start work. No surprises, no hidden fees. What we quote is what you pay.",
-            },
+              id: "3",              title: "Do you provide upfront pricing?",              content: "Absolutely. We give you a clear price quote before we start work. No surprises, no hidden fees. What we quote is what you pay."},
             {
-              id: "4",
-              title: "What plumbing issues do you handle?",
-              content: "We handle all residential plumbing: emergency repairs, leak detection, drain cleaning, water heater service, toilet/faucet repair, pipe work, and plumbing for remodels. If it involves plumbing, we can help.",
-            },
+              id: "4",              title: "What plumbing issues do you handle?",              content: "We handle all residential plumbing: emergency repairs, leak detection, drain cleaning, water heater service, toilet/faucet repair, pipe work, and plumbing for remodels. If it involves plumbing, we can help."},
             {
-              id: "5",
-              title: "Do you service water heaters and drain clogs?",
-              content: "Yes! We repair, maintain, and install water heaters of all brands and types. We also specialize in drain cleaning and clog removal using modern equipment.",
-            },
+              id: "5",              title: "Do you service water heaters and drain clogs?",              content: "Yes! We repair, maintain, and install water heaters of all brands and types. We also specialize in drain cleaning and clog removal using modern equipment."},
             {
-              id: "6",
-              title: "What areas do you serve?",
-              content: "We serve the greater metro area and surrounding communities. Call (555) 123-4567 to confirm we service your location, or fill out our online contact form and we'll get back to you quickly.",
-            },
+              id: "6",              title: "What areas do you serve?",              content: "We serve the greater metro area and surrounding communities. Call (402) 383-1633 to confirm we service your location, or fill out our online contact form and we'll get back to you quickly."},
             {
-              id: "7",
-              title: "Can I request service online?",
-              content: "Yes! You can fill out our online service request form with details about your plumbing issue. We'll contact you within 1 hour to confirm your appointment time.",
-            },
+              id: "7",              title: "Can I request service online?",              content: "Yes! You can fill out our online service request form with details about your plumbing issue. We'll contact you within 1 hour to confirm your appointment time."},
           ]}
           textboxLayout="default"
           useInvertedBackground={true}
           faqsAnimation="slide-up"
           buttons={[
             {
-              text: "Request Service Online",
-              href: "/contact",
+              text: "Request Service Online",              href: "/contact"
             },
           ]}
           buttonAnimation="slide-up"
@@ -117,86 +94,66 @@ export default function ContactPage() {
         <FooterSimple
           columns={[
             {
-              title: "Quick Links",
-              items: [
+              title: "Quick Links",              items: [
                 {
-                  label: "Home",
-                  href: "/",
+                  label: "Home",                  href: "/"
                 },
                 {
-                  label: "Services",
-                  href: "/services",
+                  label: "Services",                  href: "/services"
                 },
                 {
-                  label: "About",
-                  href: "/about",
+                  label: "About",                  href: "/about"
                 },
                 {
-                  label: "Contact",
-                  href: "/contact",
+                  label: "Contact",                  href: "/contact"
                 },
               ],
             },
             {
-              title: "Services",
-              items: [
+              title: "Services",              items: [
                 {
-                  label: "Emergency Plumbing",
-                  href: "/services",
+                  label: "Emergency Plumbing",                  href: "/services"
                 },
                 {
-                  label: "Leak Repair",
-                  href: "/services",
+                  label: "Leak Repair",                  href: "/services"
                 },
                 {
-                  label: "Drain Cleaning",
-                  href: "/services",
+                  label: "Drain Cleaning",                  href: "/services"
                 },
                 {
-                  label: "Water Heater",
-                  href: "/services",
+                  label: "Water Heater",                  href: "/services"
                 },
               ],
             },
             {
-              title: "Contact",
-              items: [
+              title: "Contact",              items: [
                 {
-                  label: "Call: (555) 123-4567",
-                  href: "tel:+15551234567",
+                  label: "Call: (402) 383-1633",                  href: "tel:+14023831633"
                 },
                 {
-                  label: "Emergency: 24/7",
-                  href: "#",
+                  label: "Emergency: 24/7",                  href: "#"
                 },
                 {
-                  label: "Service Request Form",
-                  href: "/contact",
+                  label: "Service Request Form",                  href: "/contact"
                 },
                 {
-                  label: "Email: info@barrysplumbing.com",
-                  href: "mailto:info@barrysplumbing.com",
+                  label: "Email: info@barrysplumbing.com",                  href: "mailto:info@barrysplumbing.com"
                 },
               ],
             },
             {
-              title: "Legal",
-              items: [
+              title: "Legal",              items: [
                 {
-                  label: "Privacy Policy",
-                  href: "#",
+                  label: "Privacy Policy",                  href: "#"
                 },
                 {
-                  label: "Terms of Service",
-                  href: "#",
+                  label: "Terms of Service",                  href: "#"
                 },
                 {
-                  label: "Service Area",
-                  href: "#",
+                  label: "Service Area",                  href: "#"
                 },
                 {
-                  label: "License & Insurance",
-                  href: "#",
+                  label: "License & Insurance",                  href: "#"
                 },
               ],
             },
