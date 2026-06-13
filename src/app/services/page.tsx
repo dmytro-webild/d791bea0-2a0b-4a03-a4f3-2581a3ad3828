@@ -33,9 +33,7 @@ export default function ServicesPage() {
             { name: "Contact", id: "/contact" },
           ]}
           button={{
-            text: "Call Now: (555) 123-4567",
-            href: "tel:+15551234567",
-          }}
+            text: "Call Now: (402) 383-1633",            href: "tel:+14023831633"}}
           animateOnLoad={true}
         />
       </div>
@@ -52,41 +50,21 @@ export default function ServicesPage() {
           mediaAnimation="slide-up"
           accordionItems={[
             {
-              id: "1",
-              title: "Emergency Plumbing",
-              content: "24/7 emergency response for burst pipes, severe leaks, and urgent issues. We prioritize emergency calls to minimize water damage and restore service quickly. When you need help at 2 AM on a holiday, we'll be there.",
-            },
+              id: "1",              title: "Emergency Plumbing",              content: "24/7 emergency response for burst pipes, severe leaks, and urgent issues. We prioritize emergency calls to minimize water damage and restore service quickly. When you need help at 2 AM on a holiday, we'll be there."},
             {
-              id: "2",
-              title: "Leak Detection & Repair",
-              content: "Expert leak detection and repair for all types of leaks—from hidden wall leaks to under-sink drips. We find the source and fix it right, preventing costly water damage and helping you save on your water bill.",
-            },
+              id: "2",              title: "Leak Detection & Repair",              content: "Expert leak detection and repair for all types of leaks—from hidden wall leaks to under-sink drips. We find the source and fix it right, preventing costly water damage and helping you save on your water bill."},
             {
-              id: "3",
-              title: "Drain Cleaning & Clog Removal",
-              content: "Fast, effective drain cleaning services using modern equipment. We clear clogs in sinks, showers, tubs, and main lines. No more backed-up water—just clear, flowing drains.",
-            },
+              id: "3",              title: "Drain Cleaning & Clog Removal",              content: "Fast, effective drain cleaning services using modern equipment. We clear clogs in sinks, showers, tubs, and main lines. No more backed-up water—just clear, flowing drains."},
             {
-              id: "4",
-              title: "Water Heater Services",
-              content: "Water heater repair, maintenance, and installation. We service all brands and types of water heaters—tankless, gas, electric, and hybrid. Keep your hot water flowing reliably.",
-            },
+              id: "4",              title: "Water Heater Services",              content: "Water heater repair, maintenance, and installation. We service all brands and types of water heaters—tankless, gas, electric, and hybrid. Keep your hot water flowing reliably."},
             {
-              id: "5",
-              title: "Toilet, Faucet & Fixture Repair",
-              content: "Fast repairs and replacements for toilets, faucets, sinks, and shower fixtures. Running toilets, dripping faucets, or broken fixtures? We fix them quickly with quality parts and workmanship.",
-            },
+              id: "5",              title: "Toilet, Faucet & Fixture Repair",              content: "Fast repairs and replacements for toilets, faucets, sinks, and shower fixtures. Running toilets, dripping faucets, or broken fixtures? We fix them quickly with quality parts and workmanship."},
             {
-              id: "6",
-              title: "Pipe Repair & Remodeling",
-              content: "Comprehensive pipe repair and replacement services. Corroded pipes, pinhole leaks, or burst sections—we handle it all. We also provide full plumbing support for kitchen remodels, bathroom renovations, and new construction.",
-            },
+              id: "6",              title: "Pipe Repair & Remodeling",              content: "Comprehensive pipe repair and replacement services. Corroded pipes, pinhole leaks, or burst sections—we handle it all. We also provide full plumbing support for kitchen remodels, bathroom renovations, and new construction."},
           ]}
           buttons={[
             {
-              text: "Request Service Now",
-              href: "/contact",
-            },
+              text: "Request Service Now",              href: "/contact"},
           ]}
           buttonAnimation="slide-up"
           useInvertedBackground={true}
@@ -98,19 +76,12 @@ export default function ServicesPage() {
         <TextSplitAbout
           title="Our Service Commitment"
           description={[
-            "Every service call is backed by our commitment to quality, honesty, and fair pricing. We show up on time, equipped with the right tools and parts. We listen carefully to your concerns, diagnose accurately, and explain our recommendations clearly.",
-            "We work efficiently to minimize disruption to your home. Our technicians treat your property with respect, keeping your home clean throughout the repair. When we finish, your plumbing problem is solved, and you have confidence in the work we've done.",
-            "Many customers have trusted Barry's Emergency Plumbing for years. We aim to be your reliable, professional local plumber for all your residential plumbing needs.",
-          ]}
+            "Every service call is backed by our commitment to quality, honesty, and fair pricing. We show up on time, equipped with the right tools and parts. We listen carefully to your concerns, diagnose accurately, and explain our recommendations clearly.",            "We work efficiently to minimize disruption to your home. Our technicians treat your property with respect, keeping your home clean throughout the repair. When we finish, your plumbing problem is solved, and you have confidence in the work we've done.",            "Many customers have trusted Barry's Emergency Plumbing for years. We aim to be your reliable, professional local plumber for all your residential plumbing needs."]}
           buttons={[
             {
-              text: "Call Now: (555) 123-4567",
-              href: "tel:+15551234567",
-            },
+              text: "Call Now: (402) 383-1633",              href: "tel:+14023831633"},
             {
-              text: "Back to Home",
-              href: "/",
-            },
+              text: "Back to Home",              href: "/"},
           ]}
           buttonAnimation="slide-up"
           showBorder={true}
@@ -128,7 +99,7 @@ export default function ServicesPage() {
           background={{ variant: "rotated-rays-animated" }}
           useInvertedBackground={false}
           inputPlaceholder="Your phone number"
-          buttonText="Call Now: (555) 123-4567"
+          buttonText="Call Now: (402) 383-1633"
           termsText="We'll respond to your request within 1 hour. Available 24/7 for emergencies."
         />
       </div>
@@ -137,8 +108,7 @@ export default function ServicesPage() {
         <FooterSimple
           columns={[
             {
-              title: "Quick Links",
-              items: [
+              title: "Quick Links",              items: [
                 { label: "Home", href: "/" },
                 { label: "Services", href: "/services" },
                 { label: "About", href: "/about" },
@@ -146,8 +116,7 @@ export default function ServicesPage() {
               ],
             },
             {
-              title: "Services",
-              items: [
+              title: "Services",              items: [
                 { label: "Emergency Plumbing", href: "/services" },
                 { label: "Leak Repair", href: "/services" },
                 { label: "Drain Cleaning", href: "/services" },
@@ -155,17 +124,15 @@ export default function ServicesPage() {
               ],
             },
             {
-              title: "Contact",
-              items: [
-                { label: "Call: (555) 123-4567", href: "tel:+15551234567" },
+              title: "Contact",              items: [
+                { label: "Call: (402) 383-1633", href: "tel:+14023831633" },
                 { label: "Emergency: 24/7", href: "#" },
                 { label: "Service Request Form", href: "/contact" },
                 { label: "Email: info@barrysplumbing.com", href: "mailto:info@barrysplumbing.com" },
               ],
             },
             {
-              title: "Legal",
-              items: [
+              title: "Legal",              items: [
                 { label: "Privacy Policy", href: "#" },
                 { label: "Terms of Service", href: "#" },
                 { label: "Service Area", href: "#" },
