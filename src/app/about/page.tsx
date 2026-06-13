@@ -33,7 +33,7 @@ export default function AboutPage() {
             { name: "Contact", id: "/contact" }
           ]}
           button={{
-            text: "Call Now: (402) 383-1633",            href: "tel:+14023831633"
+            text: "Call Now: (402) 383-1633", href: "tel:+14023831633"
           }}
           animateOnLoad={true}
         />
@@ -46,10 +46,10 @@ export default function AboutPage() {
             "We're your trusted neighborhood plumber. With over 20 years of local experience, we've built our reputation on honest recommendations, fair pricing, and fast response times. When plumbing emergencies strike, you need someone you can count on.",            "Every customer is treated with respect and clear communication. We explain repair options, pricing upfront with no hidden fees, and take pride in quality workmanship. Many of our customers have trusted us for years—and we aim to earn your trust too.",            "Available 24/7 for emergency calls. Respectful, professional service in your home. Fair, competitive pricing. Experienced, knowledgeable plumber. That's the Barry's Emergency Plumbing difference."]}
           buttons={[
             {
-              text: "Request Service Now",              href: "/contact"
+              text: "Request Service Now", href: "/contact"
             },
             {
-              text: "Call (402) 383-1633",              href: "tel:+14023831633"
+              text: "Call (402) 383-1633", href: "tel:+14023831633"
             },
           ]}
           buttonAnimation="slide-up"
@@ -64,16 +64,16 @@ export default function AboutPage() {
           description="Built on years of honest service, fair pricing, and rapid response to homeowner emergencies."
           metrics={[
             {
-              id: "1",              value: "20",              title: "Years",              description: "Professional local plumbing experience",              icon: Clock,
+              id: "1", value: "20", title: "Years", description: "Professional local plumbing experience", icon: Clock,
             },
             {
-              id: "2",              value: "4.8",              title: "Stars",              description: "Based on 500+ verified customer reviews",              icon: Star,
+              id: "2", value: "4.8", title: "Stars", description: "Based on 500+ verified customer reviews", icon: Star,
             },
             {
-              id: "3",              value: "30",              title: "Minutes",              description: "Average response time to emergency calls",              icon: Zap,
+              id: "3", value: "30", title: "Minutes", description: "Average response time to emergency calls", icon: Zap,
             },
             {
-              id: "4",              value: "100%",              title: "Fair",              description: "Upfront pricing with no hidden fees",              icon: CheckCircle,
+              id: "4", value: "100%", title: "Fair", description: "Upfront pricing with no hidden fees", icon: CheckCircle,
             },
           ]}
           gridVariant="uniform-all-items-equal"
@@ -92,28 +92,28 @@ export default function AboutPage() {
           description="Real testimonials from homeowners in our community who've trusted Barry's Emergency Plumbing with their most urgent repairs."
           testimonials={[
             {
-              id: "1",              name: "Sarah Johnson",              handle: "@sarahjohnsonfamily",              testimonial: "Barry arrived within 30 minutes of my emergency call. He quickly diagnosed our burst pipe, explained the repair clearly, and fixed it without any fuss. Honest pricing, professional work. Highly recommend!",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-young-woman-posing_23-2148454538.jpg?_wi=2",              imageAlt: "professional female homeowner portrait happy smiling"
+              id: "1", name: "Sarah Johnson", handle: "@sarahjohnsonfamily", testimonial: "Barry arrived within 30 minutes of my emergency call. He quickly diagnosed our burst pipe, explained the repair clearly, and fixed it without any fuss. Honest pricing, professional work. Highly recommend!", rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-young-woman-posing_23-2148454538.jpg?_wi=2", imageAlt: "professional female homeowner portrait happy smiling"
             },
             {
-              id: "2",              name: "Michael Chen",              handle: "@mchen_home",              testimonial: "Had a major drain clog in my basement. Barry was straightforward about what needed to be done and the cost—no surprises. The work was done efficiently and my drain is flowing perfectly now.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-businessman-holding-mobile-phone-coffee-cup-waiting-area_107420-95820.jpg?_wi=2",              imageAlt: "professional male homeowner portrait happy satisfied"
+              id: "2", name: "Michael Chen", handle: "@mchen_home", testimonial: "Had a major drain clog in my basement. Barry was straightforward about what needed to be done and the cost—no surprises. The work was done efficiently and my drain is flowing perfectly now.", rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-businessman-holding-mobile-phone-coffee-cup-waiting-area_107420-95820.jpg?_wi=2", imageAlt: "professional male homeowner portrait happy satisfied"
             },
             {
-              id: "3",              name: "Emily Rodriguez",              handle: "@emilyrodriguezdiy",              testimonial: "Called for a water heater issue on a Sunday. Barry answered immediately, came out the same day, and got us hot water again. Great service, fair price. We've used him three times now.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-broadly-business-woman-showing-thumb-up_1262-1127.jpg?_wi=2",              imageAlt: "professional female portrait happy customer satisfied"
+              id: "3", name: "Emily Rodriguez", handle: "@emilyrodriguezdiy", testimonial: "Called for a water heater issue on a Sunday. Barry answered immediately, came out the same day, and got us hot water again. Great service, fair price. We've used him three times now.", rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/smiling-broadly-business-woman-showing-thumb-up_1262-1127.jpg?_wi=2", imageAlt: "professional female portrait happy customer satisfied"
             },
             {
-              id: "4",              name: "David Kim",              handle: "@dkimhomeowner",              testimonial: "Most plumbers just show up and quote high prices. Barry took time to explain our options, recommended the most cost-effective solution, and did excellent work. A plumber you can actually trust.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/people-recording-their-house-tour_23-2151139106.jpg?_wi=2",              imageAlt: "professional male customer portrait satisfied happy"
+              id: "4", name: "David Kim", handle: "@dkimhomeowner", testimonial: "Most plumbers just show up and quote high prices. Barry took time to explain our options, recommended the most cost-effective solution, and did excellent work. A plumber you can actually trust.", rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/people-recording-their-house-tour_23-2151139106.jpg?_wi=2", imageAlt: "professional male customer portrait satisfied happy"
             },
             {
-              id: "5",              name: "Jessica Martinez",              handle: "@jmartinez_homecare",              testimonial: "Leaky faucet turned into a bigger problem. Barry diagnosed it quickly, explained what went wrong in terms I could understand, and fixed it properly. Professional and friendly. Will call him again.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/pretty-teenager-talking-phone_23-2148804651.jpg?_wi=2",              imageAlt: "professional female customer portrait testimonial happy"
+              id: "5", name: "Jessica Martinez", handle: "@jmartinez_homecare", testimonial: "Leaky faucet turned into a bigger problem. Barry diagnosed it quickly, explained what went wrong in terms I could understand, and fixed it properly. Professional and friendly. Will call him again.", rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/pretty-teenager-talking-phone_23-2148804651.jpg?_wi=2", imageAlt: "professional female customer portrait testimonial happy"
             },
             {
-              id: "6",              name: "Robert Thompson",              handle: "@rthompson_builder",              testimonial: "Used Barry for our home remodel plumbing work. Reliable, on-time, quality work, and fair pricing. He's now our go-to plumber for everything. Definitely recommend to anyone in the area.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-businessman-looking-camera_23-2147839978.jpg?_wi=2",              imageAlt: "professional male portrait testimonial customer satisfied"
+              id: "6", name: "Robert Thompson", handle: "@rthompson_builder", testimonial: "Used Barry for our home remodel plumbing work. Reliable, on-time, quality work, and fair pricing. He's now our go-to plumber for everything. Definitely recommend to anyone in the area.", rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-businessman-looking-camera_23-2147839978.jpg?_wi=2", imageAlt: "professional male portrait testimonial customer satisfied"
             },
           ]}
           showRating={true}
@@ -130,67 +130,35 @@ export default function AboutPage() {
         <FooterSimple
           columns={[
             {
-              title: "Quick Links",              items: [
-                {
-                  label: "Home",                  href: "/"
-                },
-                {
-                  label: "Services",                  href: "/services"
-                },
-                {
-                  label: "About",                  href: "/about"
-                },
-                {
-                  label: "Contact",                  href: "/contact"
-                },
+              title: "Quick Links", items: [
+                { label: "Home", href: "/" },
+                { label: "Services", href: "/services" },
+                { label: "About", href: "/about" },
+                { label: "Contact", href: "/contact" },
               ],
             },
             {
-              title: "Services",              items: [
-                {
-                  label: "Emergency Plumbing",                  href: "/services"
-                },
-                {
-                  label: "Leak Repair",                  href: "/services"
-                },
-                {
-                  label: "Drain Cleaning",                  href: "/services"
-                },
-                {
-                  label: "Water Heater",                  href: "/services"
-                },
+              title: "Services", items: [
+                { label: "Emergency Plumbing", href: "/services" },
+                { label: "Leak Repair", href: "/services" },
+                { label: "Drain Cleaning", href: "/services" },
+                { label: "Water Heater", href: "/services" },
               ],
             },
             {
-              title: "Contact",              items: [
-                {
-                  label: "Call: (402) 383-1633",                  href: "tel:+14023831633"
-                },
-                {
-                  label: "Emergency: 24/7",                  href: "#"
-                },
-                {
-                  label: "Service Request Form",                  href: "/contact"
-                },
-                {
-                  label: "Email: info@barrysplumbing.com",                  href: "mailto:info@barrysplumbing.com"
-                },
+              title: "Contact", items: [
+                { label: "Call: (402) 383-1633", href: "tel:+14023831633" },
+                { label: "Emergency: 24/7", href: "#" },
+                { label: "Service Request Form", href: "/contact" },
+                { label: "Email: info@barrysplumbing.com", href: "mailto:info@barrysplumbing.com" },
               ],
             },
             {
-              title: "Legal",              items: [
-                {
-                  label: "Privacy Policy",                  href: "#"
-                },
-                {
-                  label: "Terms of Service",                  href: "#"
-                },
-                {
-                  label: "Service Area",                  href: "#"
-                },
-                {
-                  label: "License & Insurance",                  href: "#"
-                },
+              title: "Legal", items: [
+                { label: "Privacy Policy", href: "#" },
+                { label: "Terms of Service", href: "#" },
+                { label: "Service Area", href: "#" },
+                { label: "License & Insurance", href: "#" },
               ],
             },
           ]}
